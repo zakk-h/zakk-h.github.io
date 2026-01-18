@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 2"
-collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+title: "Context-Aware Filtering of Unstructured Radiology Reports by Anatomical Region"
+authors: "Zakk Heile, Pranav Manjunath, Brian Lerner, Samuel Berchuck, Monica Agrawal, Timothy W. Dunn"
+venue: "Machine Learning for Health (ML4H) 2025"
+date: 2025-01-01
+category: conferences
+paperurl: "https://openreview.net/pdf?id=zgy9zuhtX2"
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Radiology reports contain essential clinical information but are often stored as unstructured free text. In trauma settings, multiple imaging studies (e.g., CT head, facial bones, and cervical spine) may be bundled into a single report that consolidates findings from all examinations into one jointly written document. As a result, individual sentences may reference ambiguous or overlapping anatomy (e.g., “there is a fracture”), making sentence-level anatomical classification essential for downstream tasks.
+
+We develop **context-aware classical models with targeted feature engineering** to filter radiology reports by anatomical region, retaining only findings relevant to a specified anatomy. Leveraging the precision of clinical language, our approach **outperforms trained neural networks and large pre-trained language models**, while requiring only a small amount of labeled training data.
+
+We demonstrate that the learned model weights **generalize effectively to MIMIC-IV radiology reports** without retraining and achieve near-optimal performance in both sensitivity and specificity. These results make our approach practical, reproducible, and well-suited for deployment in new clinical settings.
