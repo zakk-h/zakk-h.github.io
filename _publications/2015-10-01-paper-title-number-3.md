@@ -1,7 +1,7 @@
 ---
 title: "Efficient Rashomon Set Approximation for Decision Trees"
 authors: "Zakk Heile, Varun Babbar, Hayden McTavish, Cynthia Rudin"
-venue: "NeurIPS 2025 Workshop on Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR)"
+venue: "NeurIPS Workshop on Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR)"
 date: 2025-12-01
 category: conferences
 paperurl: "https://openreview.net/pdf?id=JlnpgWUXfS"
