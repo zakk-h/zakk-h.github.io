@@ -5,7 +5,7 @@ venue: "NeurIPS Workshop for Imageomics: Discovering Biological Knowledge from I
 date: 2025-12-01
 category: conferences
 paperurl: "https://openreview.net/pdf?id=yxZmNuLwa3"
-order: 5
+order: 4.9
 ---
 
 Comparing probability distributions derived from biological images requires distances that are geometrically grounded and invariant to orientation. Classical optimal transport (OT) distances are sensitive to rotations, while Gromov–Wasserstein (GW) offers invariance but is computationally prohibitive for large datasets.
