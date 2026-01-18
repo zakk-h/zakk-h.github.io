@@ -4,6 +4,7 @@ authors: "Zakk Heile, Jayson Tran, Peilin He, Alice Wang"
 venue: "Joint Mathematics Meetings (JMM)"
 date: 2026-01-01
 category: conferences
+order: 7
 ---
 
 Comparing probability measures whose supports are related by an unknown rigid transformation is a fundamental challenge in geometric data analysis, arising in shape matching and machine learning. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, while Gromov–Wasserstein (GW) is invariant to isometries but computationally prohibitive for large datasets.
