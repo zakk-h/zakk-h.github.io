@@ -5,6 +5,8 @@ venue: "NeurIPS 2025 Workshop on Mathematical Foundations and Operational Integr
 date: 2025-12-01
 category: conferences
 paperurl: "https://openreview.net/pdf?id=JlnpgWUXfS"
+order: 4
+
 ---
 
 Standard machine learning pipelines often admit many near-optimal models. These **Rashomon sets** pose both challenges and opportunities for uncertainty-aware and robust decision making: they enable incorporation of domain knowledge and user preferences that are difficult to encode directly in an objective, and they quantify diversity among plausible models and predictions for a given dataset and loss.
