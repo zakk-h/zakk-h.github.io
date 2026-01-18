@@ -5,6 +5,7 @@ venue: "arXiv preprint arXiv:2510.10233"
 date: 2025-10-11
 category: manuscripts
 paperurl: "https://arxiv.org/abs/2510.10233"
+order: 2
 ---
 
 Comparing probability measures when their supports are related by an unknown rigid transformation is an important challenge in geometric data analysis, arising in shape matching and machine learning. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, while Gromov–Wasserstein (GW) is invariant to isometries but computationally prohibitive for large datasets.
