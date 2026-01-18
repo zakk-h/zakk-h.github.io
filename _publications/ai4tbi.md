@@ -3,7 +3,7 @@ title: "Discovering AI Applications for Traumatic Brain Injury Care"
 authors: "AI4TBI Bass Connections Team"
 venue: "Bass Connections Research Showcase, Duke University"
 date: 2025-04-30
-category: conference
+category: conferences
 order: 5
 ---
 
