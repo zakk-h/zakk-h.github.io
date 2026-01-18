@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
-collection: publications
+title: "Rigid-Invariant Sliced Wasserstein via Independent Embeddings"
+authors: "Zakk Heile, Jayson Tran, Peilin He, Alice Wang"
+venue: "Joint Mathematics Meetings (JMM) 2026"
+date: 2026-01-01
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+Comparing probability measures whose supports are related by an unknown rigid transformation is a fundamental challenge in geometric data analysis, arising in shape matching and machine learning. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, while Gromov–Wasserstein (GW) is invariant to isometries but computationally prohibitive for large datasets.
+
+We present **Rigid-Invariant Sliced Wasserstein via Independent Embeddings (RISWIE)**, a scalable pseudometric that combines the invariance properties of NP-hard approaches with the efficiency of projection-based OT. RISWIE constructs data-adaptive bases and matches optimal signed permutations along axes according to distributional similarity, achieving rigid invariance with **near-linear complexity in the sample size**.
+
+We prove bounds relating RISWIE to GW in the Gaussian case and empirically demonstrate **dimension-independent statistical stability**. Experiments on cellular imaging data and 3D human meshes show that RISWIE outperforms GW in clustering and discriminative tasks while significantly reducing runtime.
+
+**Presenting authors:** Zakk Heile, Jayson Tran  
