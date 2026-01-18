@@ -7,16 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zakk Heile"
-title_separator          : "-"
-name                     : &name "Zakk Heile"
-description              : &description "Zakk Heile"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://https://zakk-h.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zakk-h/zakk-h.github.io""
+locale: "en-US"
+site_theme: "default"
+title: "Zakk Heile"
+title_separator: "-"
+name: "Zakk Heile"
+description: "Duke CS/Math. Research on decision trees, Rashomon sets, and optimal tree enumeration."
+url: "https://zakk-h.github.io"
+baseurl: ""
+repository: "zakk-h/zakk-h.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -147,11 +146,17 @@ og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  type: Person
+  name: Zakk Heile
+  links:
+    - https://github.com/zakk-h
+    - https://scholar.google.com/citations?user=lKgqUmEAAAAJ
+    - https://orcid.org/0009-0006-4923-1995
 
 # Analytics
 analytics:
@@ -245,7 +250,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -263,7 +268,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -272,7 +277,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -281,7 +286,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comment: false
   # _talks
   - scope:
       path: ""
