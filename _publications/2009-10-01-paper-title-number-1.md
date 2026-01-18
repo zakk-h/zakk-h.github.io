@@ -3,7 +3,7 @@ title: "Rigid-Invariant Sliced Wasserstein via Independent Embeddings"
 authors: "Peilin He, Zakk Heile, Jayson Tran, Alice Wang, Shrikant Chand"
 venue: "arXiv preprint arXiv:2510.10233"
 date: 2025-10-11
-category: manuscripts
+category: conferences
 paperurl: "https://arxiv.org/abs/2510.10233"
 order: 2
 ---
