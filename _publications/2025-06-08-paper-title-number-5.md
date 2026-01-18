@@ -1,7 +1,7 @@
 ---
 title: "Rigid-Invariant Sliced Wasserstein via Independent Embeddings"
 authors: "Zakk Heile, Jayson Tran, Peilin He, Alice Wang"
-venue: "Joint Mathematics Meetings (JMM) 2026"
+venue: "Joint Mathematics Meetings (JMM)"
 date: 2026-01-01
 category: conferences
 ---
