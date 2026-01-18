@@ -1,13 +1,14 @@
 ---
-title: "Paper Title Number 4"
-collection: publications
+title: "Scalable Rigid-Invariant Distance for Shape Matching and Alignment"
+authors: "Zakk Heile, Peilin He, Jayson Tran, Ruiling Wang, Shrikant Chand"
+venue: "NeurIPS 2025 Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI"
+date: 2025-12-01
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+paperurl: "https://openreview.net/pdf?id=yxZmNuLwa3"
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Comparing probability distributions derived from biological images requires distances that are geometrically grounded and invariant to orientation. Classical optimal transport (OT) distances are sensitive to rotations, while Gromov–Wasserstein (GW) offers invariance but is computationally prohibitive for large datasets.
+
+We introduce **Rigid-Invariant Sliced Wasserstein via Independent Embeddings (RISWIE)**, a scalable pseudometric that achieves rigid invariance by aligning data-adaptive embeddings through optimal signed permutations at negligible computational cost. Evaluated on **2D HuBMAP tissue slices** and **3D MPI-FAUST human meshes**, RISWIE achieves **95.8% accuracy** with over **10⁴× speedup** relative to GW and an **AUC of 0.94** for human pose matching.
+
+Beyond efficiency, RISWIE’s optimization yields **explicit axis alignments** that are directly usable for downstream analysis, making it a practical and interpretable distance for large-scale geometric data analysis.
