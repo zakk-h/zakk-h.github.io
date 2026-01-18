@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
+title: "Rigid-Invariant Sliced Wasserstein via Independent Embeddings"
+authors: "Peilin He, Zakk Heile, Jayson Tran, Alice Wang, Shrikant Chand"
+venue: "arXiv preprint arXiv:2510.10233"
+date: 2025-10-11
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: "https://arxiv.org/abs/2510.10233"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+Comparing probability measures when their supports are related by an unknown rigid transformation is an important challenge in geometric data analysis, arising in shape matching and machine learning. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, while Gromov–Wasserstein (GW) is invariant to isometries but computationally prohibitive for large datasets.
+
+We introduce **Rigid-Invariant Sliced Wasserstein via Independent Embeddings (RISWIE)**, a scalable pseudometric that combines the invariance of NP-hard approaches with the efficiency of projection-based OT. RISWIE leverages data-adaptive bases and matches optimal signed permutations along axes according to distributional similarity, achieving rigid invariance with near-linear complexity in the sample size.
+
+We prove bounds relating RISWIE to GW in special cases and empirically demonstrate dimension-independent statistical stability. Experiments on cellular imaging and 3D human meshes show that RISWIE outperforms GW in clustering and discriminative tasks while reducing runtime by orders of magnitude.
