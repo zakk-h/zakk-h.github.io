@@ -12,7 +12,7 @@ Below is a running list of my coursework at Duke.
 
 - **TA — Graduate Numerical Analysis** (STA 612D / MATH 565 / COMPSCI 520)
 
-# Graduate Coursework
+## Graduate Coursework
 
 - **ECE 685D** — Deep Learning
 - **COMPSCI 671D** — Theory & Algorithms of Machine Learning
@@ -25,7 +25,7 @@ Below is a running list of my coursework at Duke.
 - **STA 602L** — Bayesian Statistics
 - **STA 612D** — Numerical Analysis
 
-# Undergraduate Coursework
+## Undergraduate Coursework
 
 - **MATH 221** — Linear Algebra
 - **MATH 222** — Advanced Multivariable Calculus
