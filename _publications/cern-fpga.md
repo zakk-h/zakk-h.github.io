@@ -3,7 +3,8 @@ title: "Real-Time Particle Collision Filtering with Unsupervised Learning on Cus
 authors: "Tanish Kumar, Zakk Heile, Nika Kiladze, Zesen Zhuang, Ashutosh Kotwal"
 venue: "Duke Undergraduate Research Symposium"
 date: 2024-04-30
-category: conferences
+output_type: "Poster presentation"
+category: presentations
 order: 3
 ---
 
