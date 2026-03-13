@@ -47,10 +47,7 @@
           {% endif %}
         
           {% if post.output_type %}
-          <p><strong>{{ post.output_type }}:</strong>
-            {% if post.venue %}{{ post.venue }}{% endif %}
-            {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
-          </p>
+          <p><strong>{{ post.output_type }}:</strong> {% if post.venue %}{{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
           {% elsif post.venue %}
           <p><strong>Venue:</strong> {{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
           {% endif %}
