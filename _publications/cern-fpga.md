@@ -1,7 +1,7 @@
 ---
 title: "Real-Time Particle Collision Filtering with Unsupervised Learning on Custom FPGA Hardware"
 authors: "Tanish Kumar, Zakk Heile, Nika Kiladze, Zesen Zhuang, Ashutosh Kotwal"
-venue: "Duke Undergraduate Research Symposium"
+venue: "Duke Research Symposium"
 date: 2024-04-30
 output_type: "Poster presentation"
 category: presentations
