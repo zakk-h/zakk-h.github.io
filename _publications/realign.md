@@ -6,7 +6,7 @@ date: 2026-4-30
 output_type: "Conference paper"
 category: papers
 paperurl: "https://openreview.net/pdf?id=hLG8HynoTk"
-order: 2
+order: 15
 ---
 
 Comparing probability measures modulo unknown rigid transformations is a central challenge in geometric data analysis. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, whereas Gromov-Wasserstein (GW) and Procrustes-Wasserstein (PW) distances are invariant to isometries but computationally prohibitive for large datasets. 
