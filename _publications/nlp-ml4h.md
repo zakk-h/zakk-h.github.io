@@ -3,7 +3,8 @@ title: "Context-Aware Filtering of Unstructured Radiology Reports by Anatomical 
 authors: "Zakk Heile, Pranav Manjunath, Brian Lerner, Samuel Berchuck, Monica Agrawal, Timothy W. Dunn"
 venue: "Machine Learning for Health (ML4H)"
 date: 2025-01-01
-category: conferences
+output_type: "Conference paper"
+category: papers
 paperurl: "https://openreview.net/pdf?id=zgy9zuhtX2"
 order: 1
 ---
