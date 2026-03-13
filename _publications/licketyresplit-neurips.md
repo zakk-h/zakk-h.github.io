@@ -4,7 +4,7 @@ authors: "Zakk Heile, Varun Babbar, Hayden McTavish, Cynthia Rudin"
 venue: "NeurIPS Workshop on Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR)"
 date: 2025-12-01
 output_type: "Workshop paper"
-category: workshop_papers
+category: papers
 paperurl: "https://openreview.net/pdf?id=JlnpgWUXfS"
 order: 4
 
