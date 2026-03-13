@@ -90,7 +90,7 @@ publication_category:
   preprints:
     title: "Preprints"
   presentations:
-    title: "Presentations & Posters"
+    title: "Presentations"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
