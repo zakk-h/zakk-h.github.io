@@ -3,7 +3,8 @@ title: "Scalable Rigid-Invariant Distance for Shape Matching and Alignment"
 authors: "Zakk Heile, Peilin He, Jayson Tran, Ruiling Wang, Shrikant Chand"
 venue: "NeurIPS Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI"
 date: 2025-12-01
-category: conferences
+output_type: "Workshop paper"
+category: workshop_papers
 paperurl: "https://openreview.net/pdf?id=yxZmNuLwa3"
 order: 4.9
 ---
