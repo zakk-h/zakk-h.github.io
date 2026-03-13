@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "air"
-title: "Zakk Heile"
+title: "Home"
 title_separator: "-"
-name: "Zakk Heile"
-description: "Duke Computer Science & Mathematics"
+name: "Zakk Heile | ML @ Duke"
+description: "Computer Science and Mathematics student at Duke University working on interpretable machine learning."
 url: "https://zakk-h.github.io"
 baseurl: ""
 repository: "zakk-h/zakk-h.github.io"
