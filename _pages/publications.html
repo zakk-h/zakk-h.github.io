@@ -1,38 +1,46 @@
 ---
 layout: archive
-title: "Publications & Presentations"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my papers on
-    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-  </div>
+  You can also find my papers on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
-<!-- Ordered rendering by explicit `order` field -->
-{% if site.publication_category %}
-  {% assign pubs = site.publications | sort: "order" %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in pubs %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% assign pubs = site.publications | sort: "order" %}
-  {% for post in pubs %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+# Papers
+
+**Heile, Z.**, Babbar, V., McTavish, H., & Rudin, C. [Paper on using pilot algorithms for Rashomon set optimization.]() To appear at *International Conference on Machine Learning (ICML)*, 2026.
+
+**Heile, Z.**, Manjunath, P., Lerner, B., Berchuck, S., Agrawal, M., & Dunn, T. W. [Context-Aware Filtering of Unstructured Radiology Reports by Anatomical Region.](https://openreview.net/pdf?id=zgy9zuhtX2) *Machine Learning for Health (ML4H)*, 2025.
+
+**Abstract.** Radiology reports contain essential clinical information but are often stored as unstructured free text. In trauma settings, multiple imaging studies may be bundled into a single report that consolidates findings from all examinations into one jointly written document. As a result, individual sentences may reference ambiguous or overlapping anatomy, making sentence-level anatomical classification essential for downstream tasks. We develop context-aware classical models with targeted feature engineering to filter radiology reports by anatomical region, retaining only findings relevant to a specified anatomy. Leveraging the precision of clinical language, our approach outperforms trained neural networks and large pre-trained language models while requiring only a small amount of labeled training data. We demonstrate that the learned model weights generalize effectively to MIMIC-IV radiology reports without retraining and achieve near-optimal performance in both sensitivity and specificity.
+
+**Heile, Z.**, He, P., Tran, J., Wang, A., & Chand, S. [Rigid-Invariant Sliced Wasserstein via Independent Embeddings.](https://openreview.net/pdf?id=hLG8HynoTk) *ICLR GRaM Proceedings*, 2026.
+
+**Heile, Z.**, He, P., Tran, J., Wang, A., & Chand, S. [Align Representations, Not Points: Efficient Rigid Invariant Transport Distance.](https://openreview.net/pdf?id=hLG8HynoTk) *ICLR Re-Align*, 2026.
+
+**Heile, Z.**, He, P., Tran, J., Wang, R., & Chand, S. [Scalable Rigid-Invariant Distance for Shape Matching and Alignment.](https://openreview.net/pdf?id=yxZmNuLwa3) *NeurIPS Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI*, 2025.
+
+**Heile, Z.**, Babbar, V., McTavish, H., & Rudin, C. [Efficient Rashomon Set Approximation for Decision Trees.](https://openreview.net/pdf?id=JlnpgWUXfS) *NeurIPS Workshop on Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR)*, 2025.
+
+**Abstract.** Standard machine learning pipelines often admit many near-optimal models. These Rashomon sets pose both challenges and opportunities for uncertainty-aware and robust decision making: they enable incorporation of domain knowledge and user preferences that are difficult to encode directly in an objective, and they quantify diversity among plausible models and predictions for a given dataset and loss. Despite their utility, Rashomon sets have been difficult to compute in practice due to severe computational intractability, even for simple and interpretable model classes such as sparse decision trees. We introduce LicketyRESPLIT, an algorithm for efficiently approximating the Rashomon set of decision trees with orders-of-magnitude improvements in runtime and memory usage. We empirically show that LicketyRESPLIT regularly recovers nearly all of the full Rashomon set, substantially expanding the practical feasibility of Rashomon set analysis for researchers and practitioners.
+
+# Presentations
+
+**Heile, Z.**, & Tran, J. Rigid-Invariant Sliced Wasserstein via Independent Embeddings. Presentation at the *Joint Mathematics Meetings (JMM)*, 2026.
+
+**AI4TBI Bass Connections Team.** Discovering AI Applications for Traumatic Brain Injury Care. Presentation at the *Bass Connections Research Showcase, Duke University*, 2025.
+
+**Abstract.** We present a mixed-methods investigation of traumatic brain injury (TBI) care at Duke University, aimed at identifying opportunities for responsible and clinically aligned AI decision support. The project combines rapid qualitative analysis of clinician interviews and shadowing across the TBI care pathway with large-scale curation and quality assurance of multimodal electronic health record data. Findings highlight key documentation challenges, sources of clinical variability, and stakeholder-guided requirements for AI deployment, alongside the construction of a curated TBI dataset to support future modeling and benchmarking.
+
+Kumar, T., **Heile, Z.**, Kiladze, N., Zhuang, Z., & Kotwal, A. Real-Time Particle Collision Filtering with Unsupervised Learning on Custom FPGA Hardware. Poster presentation at the *Duke Research Symposium*, 2024.
+
+**Abstract.** At CERN’s Large Hadron Collider, physicists recreate the conditions of the early universe to discover the constituents of dark matter by experimentally observing the products of proton-proton collisions. However, with protons colliding every 25 nanoseconds, computationally processing all detector data from every collision is impractical. Our work focuses on designing and implementing a filtering algorithm that processes collision data under significant time constraints to assess whether each collision warrants further study.
+
+We use an unsupervised machine learning technique implemented on custom-designed, massively parallel hardware. The device uses a graph-computing architecture that differs from the traditional Von Neumann architecture. Our focus is on data produced by the innermost detectors, a set of five barrels made with silicon pixel sensors. These detectors output a cloud of space points representing energy depositions of decay particles as they pass through the detector layers.
+
+The filtering algorithm has two main stages: first, structuring the cloud of space points into geometrical patches suitable for the parallel computer; second, reconstructing particle tracks at each node of the graph computer. The second stage treats the space points as a graph, eliminating links through a graph operator until the remaining linkages represent particle trajectories. These tracks are used to decide whether the collision produced decay particles consistent with dark matter candidates. The long-term goal is for this project to be implemented in a future LHC upgrade to enable a unique and unprecedented search for dark matter signatures.
