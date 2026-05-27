@@ -44,7 +44,7 @@ author_profile: true
 
 **Abstract.** We present a mixed-methods investigation of traumatic brain injury (TBI) care at Duke University, aimed at identifying opportunities for responsible and clinically aligned AI decision support. The project combines rapid qualitative analysis of clinician interviews and shadowing across the TBI care pathway with large-scale curation and quality assurance of multimodal electronic health record data. Findings highlight key documentation challenges, sources of clinical variability, and stakeholder-guided requirements for AI deployment, alongside the construction of a curated TBI dataset to support future modeling and benchmarking.
 
-Tanish Kumar, **Zakk Heile**, Nika Kiladze, Zesen Zhuang, and Ashutosh Kotwal. Real-Time Particle Collision Filtering with Unsupervised Learning on Custom FPGA Hardware. Poster presentation at the *Duke Research Symposium*, 2024.
+Tanish Kumar, **Zakk Heile**, Nika Kiladze, Zesen Zhuang, and Ashutosh Kotwal. Real-Time Particle Collision Filtering with Unsupervised Learning on Custom FPGA Hardware. Presentation at the *Duke Research Symposium*, 2024.
 
 **Abstract.** At CERN’s Large Hadron Collider, physicists recreate the conditions of the early universe to discover the constituents of dark matter by experimentally observing the products of proton-proton collisions. However, with protons colliding every 25 nanoseconds, computationally processing all detector data from every collision is impractical. Our work focuses on designing and implementing a filtering algorithm that processes collision data under significant time constraints to assess whether each collision warrants further study.
 
