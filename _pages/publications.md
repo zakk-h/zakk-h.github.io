@@ -13,6 +13,8 @@ author_profile: true
 
 # Papers
 
+**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Paper on Decision Trees that Abstain/Defer]() *Under review*, 2026.
+
 **Zakk Heile**, Hayden McTavish, Varun Babbar, Margo Seltzer, and Cynthia Rudin. [From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets.]() *International Conference on Machine Learning (ICML)*, 2026.
 
 **Zakk Heile**, Pranav Manjunath, Brian Lerner, Samuel Berchuck, Monica Agrawal, and Timothy W. Dunn. [Context-Aware Filtering of Unstructured Radiology Reports by Anatomical Region.](https://openreview.net/pdf?id=zgy9zuhtX2) *Machine Learning for Health (ML4H)*, 2025.
@@ -21,7 +23,10 @@ author_profile: true
 
 **Zakk Heile**, Peilin He, Jayson Tran, Alice Wang, and Shrikant Chand. [Rigid-Invariant Sliced Wasserstein via Independent Embeddings.](https://openreview.net/pdf?id=hLG8HynoTk) *ICLR GRaM Proceedings*, 2026.
 
-**Zakk Heile**, Peilin He, Jayson Tran, Alice Wang, and Shrikant Chand. [Align Representations, Not Points: Efficient Rigid Invariant Transport Distance.](https://openreview.net/pdf?id=hLG8HynoTk) *ICLR Re-Align*, 2026.
+**Abstract.** Comparing probability measures modulo unknown rigid transformations is a central challenge in geometric data analysis. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, whereas Gromov-Wasserstein (GW) and Procrustes-Wasserstein (PW) distances are invariant to isometries but computationally prohibitive for large datasets. We introduce Rigid-Invariant Sliced Wasserstein via Independent Embeddings (RISWIE), a scalable distance that combines the invariance of NP-hard approaches with the efficiency of projection-based OT. RISWIE utilizes data-adaptive bases and matches optimal signed permutations along axes according to distributional similarity to achieve rigid invariance with nearly linear complexity in the sample size. We prove bounds relating RISWIE to GW in special cases and demonstrate dimension-independent statistical stability. Our experiments on cellular imaging and 3D human meshes demonstrate that RISWIE outperforms GW and PW in clustering tasks and discriminative capability while significantly reducing runtime.
+
+
+**Zakk Heile**, Peilin He, Jayson Tran, Alice Wang, and Shrikant Chand. [Align Representations, Not Points: Efficient Rigid Invariant Transport Distance.](https://openreview.net/pdf?id=3yiQT4FWFl) *ICLR Re-Align*, 2026.
 
 **Zakk Heile**, Peilin He, Jayson Tran, Ruiling Wang, and Shrikant Chand. [Scalable Rigid-Invariant Distance for Shape Matching and Alignment.](https://openreview.net/pdf?id=yxZmNuLwa3) *NeurIPS Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI*, 2025.
 
