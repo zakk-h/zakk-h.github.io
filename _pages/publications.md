@@ -15,7 +15,7 @@ author_profile: true
 
 **Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Paper on Decision Trees that Abstain/Defer]() *Under review*, 2026.
 
-**Zakk Heile**, Hayden McTavish, Varun Babbar, Margo Seltzer, and Cynthia Rudin. [From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets.]() *International Conference on Machine Learning (ICML)*, 2026.
+**Zakk Heile**, Hayden McTavish, Varun Babbar, Margo Seltzer, and Cynthia Rudin. [From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets.](https://arxiv.org/abs/2606.00202) *International Conference on Machine Learning (ICML)*, 2026.
 
 **Abstract.** Standard machine learning pipelines often admit many near-optimal models. These "Rashomon sets" pose a range of challenges and opportunities for uncertainty-aware, robust decision making. They allow users to incorporate domain knowledge and preferences that would otherwise be difficult to specify directly in an objective, and they quantify diversity among valid models for a given training dataset and objective function. However, computation of Rashomon sets, even for simple, interpretable model classes such as sparse decision trees, continues to require immense memory and runtime resources. We present PRAXIS, an algorithm to approximate this Rashomon set with orders of magnitude improvement in runtime and memory usage. We validate that PRAXIS regularly recovers almost all of the full Rashomon set. PRAXIS allows researchers and practitioners to scalably model the Rashomon set for real-world datasets.
 
