@@ -13,7 +13,9 @@ author_profile: true
 
 # Papers
 
-**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Paper on Decision Trees that Abstain/Defer]() *Under review*, 2026.
+**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Multistage Defer Trees for Hybrid Interpretability: If at First You Can’t Succeed, Tree Again.](https://arxiv.org/abs/2606.30995) *arXiv preprint*, 2026.
+
+**Abstract.** Recent work has shown that well-optimized individual decision trees can match complex black box models in some settings, primarily in noisy domains. For the remaining settings, complex ensembled compositions of trees often achieve higher accuracy at the cost of interpretability. We introduce Multistage Defer Trees: a sequence of sparse decision trees that each make predictions for most samples, while deferring a small proportion to the next tree in the sequence or, ultimately, to a black box. We demonstrate that MDTs can match the performance of complex tree-based ensembles while routing most samples through only one or a small number of sparse decision trees, expanding the accuracy–interpretability frontier in settings where single-tree methods remain insufficient.
 
 **Zakk Heile**, Hayden McTavish, Varun Babbar, Margo Seltzer, and Cynthia Rudin. [From Rashomon Theory to PRAXIS: Efficient Decision Tree Rashomon Sets.](https://arxiv.org/abs/2606.00202) *International Conference on Machine Learning (ICML)*, 2026.
 
