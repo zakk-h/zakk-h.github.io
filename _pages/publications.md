@@ -11,13 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
-# Papers
+# Conference Papers
 
 **Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [ArborEnum: Decision Tree Rashomon Sets over Continuous Features.](https://arxiv.org/abs/2608.04310) *arXiv preprint*, 2026.
 
 **Abstract.** The Rashomon effect describes the phenomenon that many models can achieve nearly equivalent performance on the same learning task, with significant ramifications for robustness, feature importance, and customizability. These use cases motivate the computation of Rashomon sets: the set of all models whose regularized loss is near-optimal. Decision trees are one of the few model classes for which Rashomon sets can be fully enumerated, but this computation has always been conditional on a binarization of the original data, either restricting which splits each tree is allowed to make or substantially increasing the complexity of an already difficult combinatorial problem. We introduce the first algorithm that exactly enumerates decision-tree Rashomon sets while exploiting the ordered structure of continuous features. We further develop a relaxation for approximate enumeration and an anytime algorithm that progressively refines the set of candidate thresholds, producing increasingly detailed approximations that converge to the continuous-feature Rashomon set. Experiments show that coarse binarization can miss many trees, important features, and predictive multiplicity; our algorithms achieve orders-of-magnitude speedups over existing enumeration methods, with approximations providing further speedups while maintaining near-perfect recall.
-
-**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Exploring Model Diversity in Decision-Tree Rashomon Sets Beyond Discretization.](https://openreview.net/pdf?id=2VaC6Umrf3) *NeurIPS EvoRobust*, 2026.
 
 **Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Multistage Defer Trees for Hybrid Interpretability: If at First You Can’t Succeed, Tree Again.](https://arxiv.org/abs/2606.30995) *Advances in Neural Information Processing Systems (NeurIPS)*, 2026.
 
@@ -35,6 +33,9 @@ author_profile: true
 
 **Abstract.** Comparing probability measures modulo unknown rigid transformations is a central challenge in geometric data analysis. Classical optimal transport (OT) distances, including Wasserstein and sliced Wasserstein, are sensitive to rotations and reflections, whereas Gromov-Wasserstein (GW) and Procrustes-Wasserstein (PW) distances are invariant to isometries but computationally prohibitive for large datasets. We introduce Rigid-Invariant Sliced Wasserstein via Independent Embeddings (RISWIE), a scalable distance that combines the invariance of NP-hard approaches with the efficiency of projection-based OT. RISWIE utilizes data-adaptive bases and matches optimal signed permutations along axes according to distributional similarity to achieve rigid invariance with nearly linear complexity in the sample size. We prove bounds relating RISWIE to GW in special cases and demonstrate dimension-independent statistical stability. Our experiments on cellular imaging and 3D human meshes demonstrate that RISWIE outperforms GW and PW in clustering tasks and discriminative capability while significantly reducing runtime.
 
+# Workshop Papers
+
+**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Exploring Model Diversity in Decision-Tree Rashomon Sets Beyond Discretization.](https://openreview.net/pdf?id=2VaC6Umrf3) *NeurIPS EvoRobust*, 2026.
 
 **Zakk Heile**, Peilin He, Jayson Tran, Alice Wang, and Shrikant Chand. [Align Representations, Not Points: Efficient Rigid Invariant Transport Distance.](https://openreview.net/pdf?id=3yiQT4FWFl) *ICLR Re-Align*, 2026.
 
@@ -42,9 +43,11 @@ author_profile: true
 
 **Zakk Heile**, Varun Babbar, Hayden McTavish, and Cynthia Rudin. [Efficient Rashomon Set Approximation for Decision Trees.](https://openreview.net/pdf?id=JlnpgWUXfS) *NeurIPS Workshop on Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR)*, 2025.
 
-**Abstract.** Standard machine learning pipelines often admit many near-optimal models. These Rashomon sets pose both challenges and opportunities for uncertainty-aware and robust decision making: they enable incorporation of domain knowledge and user preferences that are difficult to encode directly in an objective, and they quantify diversity among plausible models and predictions for a given dataset and loss. Despite their utility, Rashomon sets have been difficult to compute in practice due to severe computational intractability, even for simple and interpretable model classes such as sparse decision trees. We introduce LicketyRESPLIT, an algorithm for efficiently approximating the Rashomon set of decision trees with orders-of-magnitude improvements in runtime and memory usage. We empirically show that LicketyRESPLIT regularly recovers nearly all of the full Rashomon set, substantially expanding the practical feasibility of Rashomon set analysis for researchers and practitioners.
+# Poster Presentations
 
-# Presentations
+**Zakk Heile**. New Optimization Algorithms for Machine Learning. Presentation at the *Duke Enrichment Funding Poster Session*, 2026. (MVP Award)
+
+**Zakk Heile**. Beyond Binarization: Finding All Good Trees. Presentation at the *Duke Plus Programs Symposium*, 2026.
 
 **Zakk Heile** and Jayson Tran. Rigid-Invariant Sliced Wasserstein via Independent Embeddings. Presentation at the *Joint Mathematics Meetings (JMM)*, 2026.
 
