@@ -35,7 +35,7 @@ author_profile: true
 
 # Workshop Papers
 
-**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Exploring Model Diversity in Decision-Tree Rashomon Sets Beyond Discretization.](https://openreview.net/pdf?id=2VaC6Umrf3) *NeurIPS EvoRobust*, 2026.
+**Zakk Heile**, Hayden McTavish, Margo Seltzer, and Cynthia Rudin. [Quantifying Model Diversity in Decision-Tree Rashomon Sets Beyond Discretization.](https://openreview.net/pdf?id=2VaC6Umrf3) *NeurIPS EvoRobust*, 2026.
 
 **Zakk Heile**, Peilin He, Jayson Tran, Alice Wang, and Shrikant Chand. [Align Representations, Not Points: Efficient Rigid Invariant Transport Distance.](https://openreview.net/pdf?id=3yiQT4FWFl) *ICLR Re-Align*, 2026.
 
