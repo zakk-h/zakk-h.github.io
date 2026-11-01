@@ -29,14 +29,17 @@ Below is a running list of my coursework at Duke.
 
 - **MATH 221** — Linear Algebra
 - **MATH 222** — Advanced Multivariable Calculus
+- **MATH 248** — Lean: Formalization of Mathematics
 - **MATH 281S** — Problem Solving Seminar
 - **MATH 340** — Advanced Probability
+- **MATH 343** — Statistical Inference
+- **MATH 371** — Combinatorics
 - **MATH 431** — Real Analysis
 - **COMPSCI 201** — Data Structures and Algorithms
 - **COMPSCI 210D** — Computer Systems  
 - **COMPSCI 330** — Design/Analysis of Algorithms
 - **COMPSCI 474** — Data Science Competition  
 - **STA 210L** — Regression Analysis
-- **STA 211** — Math of Regression
+- **STA 211** — Mathematics of Regression
 
 
