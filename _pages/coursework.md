@@ -16,6 +16,7 @@ Below is a running list of my coursework at Duke.
 
 - **ECE 685D** — Deep Learning
 - **COMPSCI 671D** — Theory & Algorithms of Machine Learning
+- **COMPSCI 590** — Interpretable Machine Learning
 - **COMPSCI 572** — Natural Language Processing
 - **COMPSCI 532** — Advanced Algorithms
 - **COMPSCI 521** — Graph-Matrix Analysis
